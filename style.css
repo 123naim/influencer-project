@@ -73,7 +73,7 @@
     gap: 8px;
     background-color: #E02C6D;
     color: white;
-    align-items: cne;
+    align-items: center;
     margin-top: 10px;
 }
 
@@ -151,4 +151,9 @@
 }
 .card-description{
     color: rgba(0, 0, 0, 0.87);
+}
+.see-more-btn{
+    width: 80%;
+    margin: 20px auto;
+    text-align: right;
 }
