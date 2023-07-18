@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section style here */
+
+
+.nav-section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-link {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link>li {
+    list-style: none;
+    color: #3A3A3A;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* banner seciton style here */
+.banner-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.prebook-btn {
+    border: none;
+    border-radius: 40px;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #E02C6D;
+    color: white;
+    align-items: cne;
+}
+
+.banner-img {
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+    
+.banner-img img {
+    width: 295px;
+    height: 310px;
+}
