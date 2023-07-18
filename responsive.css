@@ -1,0 +1,54 @@
+@media screen and (max-width: 400px) {
+    .nav-section{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    /* .menu:hover .nav-link>li{
+        display: block;
+    } */
+    .nav-link>li{
+        display: none;
+    }
+    .nav-title{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    /* banner section style here */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 100%;
+        background-size: 300px 300px;
+    }
+    .banner-img img{
+        height: 300px;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 25px;
+    }
+
+
+    /* main section style here */
+    /* company section style here */
+.company-name{
+    padding: 20px;
+}
+
+    /* popualay secition style here */
+    .popular-container{
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

@@ -33,6 +33,10 @@
     font-weight: 600;
 }
 
+.menu {
+    display: none;
+}
+
 /* banner seciton style here */
 .banner-container {
     width: 85%;
@@ -70,6 +74,7 @@
     background-color: #E02C6D;
     color: white;
     align-items: cne;
+    margin-top: 10px;
 }
 
 .banner-img {
@@ -82,8 +87,68 @@
     align-items: center;
     justify-content: right;
 }
-    
+
 .banner-img img {
     width: 295px;
     height: 310px;
+}
+
+/* main section style here */
+/* company section style here */
+
+.company-name {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+/* popular section style here */
+.popular-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    /* background-color: lightgray; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-1 {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+.card-1>div {
+    text-align: left;
+    
+}
+
+.card-1>img {
+    width: 320px;
+    height: 270px;
+}
+
+.card-title{
+    color:  #14299e;
+    font-size: 28px;
+    font-weight: 500;
+}
+.card-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+}
+.card-star{
+    color: #FB8200;
+}
+.card-description{
+    color: rgba(0, 0, 0, 0.87);
 }
